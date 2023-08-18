@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    font-family: arial;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+}
+header{
+    background-color: #C0B9DD;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position:fixed;
+    width: 100%;
+    top: 0%;
+}
+
+header a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+nav{
+    display: flex;
+    gap: 4rem;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+section {
+    border: 1px solid red;
+    height: calc(100vh - 6rem)
+}
+
+#listas {
+    margin-top: 6rem;
+    padding-top: 6rem;
+}
+
+table, td, th {
+    border: 1px solid black;
+    line-height: 2rem;
+    margin-bottom: 3rem;
+}
